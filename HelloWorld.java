@@ -63,6 +63,7 @@ public class HelloWorld {
       t[i] = new Thread(() -> { 
         System.out.println("Hello from spawned thread " + id);
       });
+      // t[i].setDaemon(true);
       t[i].start();
     }
     System.out.println("Hello from main thread");
