@@ -12,7 +12,7 @@ public class ArraySum {
     int size = args.length >= 1 ? 
       Integer.parseInt(args[0]) : 10000;
     int numberOfThreads = args.length >= 2 ?
-      Integer.parseInt(args[0]) : 2;
+      Integer.parseInt(args[1]) : 2;
 
     int[] array = buildArray(size);
 

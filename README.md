@@ -27,7 +27,7 @@ _Eduardo R. B. Marques, DCC/FCUP_
 
 - Em `hello4()`, descomente a linha com `t[i].setDaemon(true)` código (antes de `t[i].start()`).
 
-  A chamada a [setDaemon()](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#setDaemon-boolean-) faz com que as threads lançadas da "main thread" passem a ser "daemons". O programa deverá agora acabar logo que a "main thread" termine. Se necessário especifique um número de threads maior para observar esse comportamento (ex. 32).
+  A chamada a [setDaemon()](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#setDaemon-boolean-) faz com que as threads lançadas da "main thread" passem a ser "daemons". O programa deverá agora acabar logo que a "main thread" termine. Se necessário especifique um número de threads maior para observar esse comportamento (ex. 32)  ou introduza uma chamada a `Thread.sleep()` no código das "spawned threads".
 
 ## 2
 
